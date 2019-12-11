@@ -20,11 +20,11 @@ Text that looks `like this --for --example` are commands that you should type in
 
 First things first, let's install Docker:
 
-- [ ] Go to [Docker's website](https://www.docker.com/products/docker) and download the version that's appropriate for your operating system
+- [x] Go to [Docker's website](https://www.docker.com/products/docker) and download the version that's appropriate for your operating system
 
-- [ ] After you've dragged Docker into your Applications, find Docker in your Applications and click it to complete the installation
+- [x] After you've dragged Docker into your Applications, find Docker in your Applications and click it to complete the installation
 
-- [ ] Check to make sure everything worked correctly. Open up the terminal and type `docker --version`
+- [x] Check to make sure everything worked correctly. Open up the terminal and type `docker --version`
 
 You should see something like:
 ```sh
@@ -36,7 +36,7 @@ as long as it's NOT:
 ```
 If it looks like that then something went wrong with the download or installation. Oops.
 
-- [ ] Nice! Let's run your first Docker command! In the terminal type `docker info`
+- [x] Nice! Let's run your first Docker command! In the terminal type `docker info`
 
 You should see something like this: 
 
@@ -66,11 +66,11 @@ Status: Downloaded newer image for hello-world:latest
 
 ---
 
-- [ ] Check to make sure that your hello-world container logged the following: 
+- [x] Check to make sure that your hello-world container logged the following: 
 
 ![dockerhello](https://github.com/dylanlrrb/P-C-Y-Assets/blob/master/1/dockerhello.png?raw=true)
 
-- [ ] Congratulations!! If you've made it this far you have just created your first Docker container! Don't believe me? Check out `docker info` again, you should see this at the top of the report:
+- [x] Congratulations!! If you've made it this far you have just created your first Docker container! Don't believe me? Check out `docker info` again, you should see this at the top of the report:
 ```sh
 $ docker info
 Containers: 1
@@ -99,7 +99,7 @@ Images: 1
 
 Like I mentioned before, in the command `docker run hello-world`; 'hello-world' is the name of an image that you spun up a new container with. It is that container which actually ran and logged that message to the console.
 
-- [ ] There were two effects of running 'docker run hello-world'; the first is that it downloaded the 'hello-world' image from Dockerhub onto your machine. Run `docker images` to view the images that are cached on your machine. You should see:
+- [x] There were two effects of running 'docker run hello-world'; the first is that it downloaded the 'hello-world' image from Dockerhub onto your machine. Run `docker images` to view the images that are cached on your machine. You should see:
 
 ![dockerimages](https://github.com/dylanlrrb/P-C-Y-Assets/blob/master/1/dockerimages.png?raw=true)
 
